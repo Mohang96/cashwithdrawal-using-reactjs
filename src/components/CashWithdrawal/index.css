@@ -1,0 +1,96 @@
+* {
+  font-family: 'Roboto';
+  box-sizing: 'border-box';
+}
+
+body {
+  margin: 0px;
+}
+
+.background {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.card-background {
+  background-color: #150b3e;
+  padding: 25px;
+  border-radius: 12px;
+  width: 60%;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.profile {
+  height: 70px;
+  width: 70px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #7c3aed;
+  background-color: #c7d2fe;
+  border-radius: 50px;
+  margin-right: 15px;
+  font-size: 22px;
+}
+
+.profile-name {
+  color: #d4d2db;
+  font-weight: 300;
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.your-balance {
+  color: #585076;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.balance {
+  color: #d4d2db;
+  font-weight: bold;
+  font-size: 38px;
+}
+
+.in-rupees {
+  color: #585076;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.withdraw {
+  color: #d4d2db;
+  font-weight: 500;
+  font-size: 34px;
+}
+
+.choose-sum {
+  color: #585076;
+  font-weight: 500;
+}
+
+.denominations-box {
+  padding: 0px;
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+}
+
+.denominations-row {
+  width: 100%;
+}
